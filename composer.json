@@ -1,5 +1,5 @@
 {
-    "name": "knpuniversity/oauth2-client-bundle",
+    "name": "melainegerard/oauth2-client-bundle",
     "type": "symfony-bundle",
     "description": "Integration with league/oauth2-client to provide services",
     "keywords": ["oauth", "oauth2"],
@@ -10,6 +10,10 @@
         {
             "name": "Ryan Weaver",
             "email": "ryan@symfonycasts.com"
+        },
+        {
+            "name": "Melaine Gérard",
+            "email": "pro@melaine-gerard.fr"
         }
     ],
     "require": {

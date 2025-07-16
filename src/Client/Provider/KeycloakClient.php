@@ -11,10 +11,11 @@
 namespace KnpU\OAuth2ClientBundle\Client\Provider;
 
 use KnpU\OAuth2ClientBundle\Client\OAuth2Client;
+use KnpU\OAuth2ClientBundle\Client\OAuth2PKCEClient;
 use League\OAuth2\Client\Token\AccessToken;
 use Stevenmaguire\OAuth2\Client\Provider\KeycloakResourceOwner;
 
-class KeycloakClient extends OAuth2Client
+class KeycloakClient extends OAuth2PKCEClient
 {
     /**
      * @return KeycloakResourceOwner|\League\OAuth2\Client\Provider\ResourceOwnerInterface
